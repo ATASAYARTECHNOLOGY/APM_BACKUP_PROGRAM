@@ -1,0 +1,424 @@
+C:\Users\arzu\Desktop\APM\bin\Debug\SideNavSample.exe.config
+C:\Users\arzu\Desktop\APM\bin\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\APM\bin\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\APM\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\arzu\Desktop\APM\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\arzu\Desktop\APM\bin\Debug\System.Data.SQLite.dll
+C:\Users\arzu\Desktop\APM\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\arzu\Desktop\APM\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\arzu\Desktop\APM\bin\Debug\System.Data.SQLite.xml
+C:\Users\arzu\Desktop\APM\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\arzu\Desktop\APM\obj\Debug\SideNavSample.Form1.resources
+C:\Users\arzu\Desktop\APM\obj\Debug\SideNavSample.Properties.Resources.resources
+C:\Users\arzu\Desktop\APM\obj\Debug\APM.csproj.GenerateResource.cache
+C:\Users\arzu\Desktop\APM\obj\Debug\APM.csproj.CopyComplete
+C:\Users\arzu\Desktop\APM\obj\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\APM\obj\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\SideNavSample.exe.config
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\System.Data.SQLite.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\System.Data.SQLite.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\SideNavSample.Form1.resources
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\SideNavSample.Properties.Resources.resources
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\APM.csproj.GenerateResource.cache
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\APM.csproj.CopyComplete
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.pdb
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.3.0.7.0.Fakes.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.3.0.7.0.Fakes.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.Platform.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.Transformations.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.Jobs.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.pdb
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.Platform.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\FFImageLoading.Transformations.xml
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.Jobs.pdb
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\Quartz.Jobs.xml
+C:\Users\arzu\Desktop\APM\APM\obj\Debug\APM.csprojAssemblyReference.cache
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.Runtime.dll
+C:\Users\arzu\Desktop\APM\APM\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\System.Data.SQLite.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\SideNavSample.exe.config
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.Platform.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.Transformations.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.Runtime.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.3.0.7.0.Fakes.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.Jobs.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.pdb
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.Platform.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\FFImageLoading.Transformations.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.pdb
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.3.0.7.0.Fakes.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.Jobs.pdb
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\Quartz.Jobs.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\System.Data.SQLite.xml
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\APM.csprojAssemblyReference.cache
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\SideNavSample.Form1.resources
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\SideNavSample.Properties.Resources.resources
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\APM.csproj.GenerateResource.cache
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\APM.csproj.CopyComplete
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\Ramazanbey\APM\obj\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\Ramazanbey\APM\bin\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\SideNavSample.exe.config
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.Platform.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.Transformations.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.Runtime.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.3.0.7.0.Fakes.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.Jobs.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\System.Data.SQLite.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.pdb
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.Platform.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\FFImageLoading.Transformations.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.pdb
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.3.0.7.0.Fakes.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.Jobs.pdb
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\Quartz.Jobs.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\System.Data.SQLite.xml
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\APM.csprojAssemblyReference.cache
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\SideNavSample.Form1.resources
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\SideNavSample.Properties.Resources.resources
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\APM.csproj.GenerateResource.cache
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\APM.csproj.CopyComplete
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\SideNavSample.exe
+C:\Users\arzu\Desktop\Ramazanbey\Ramazanbey\APM\obj\Debug\SideNavSample.pdb
+C:\Users\arzu\Desktop\APM_new\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.Platform.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.Transformations.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.Runtime.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.3.0.7.0.Fakes.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.Jobs.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\System.Data.SQLite.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.pdb
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.Platform.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\FFImageLoading.Transformations.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.pdb
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.3.0.7.0.Fakes.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.Jobs.pdb
+C:\Users\arzu\Desktop\APM_new\bin\Debug\Quartz.Jobs.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\System.Data.SQLite.xml
+C:\Users\arzu\Desktop\APM_new\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\arzu\Desktop\APM_new\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new\obj\Debug\SideNavSample.Form1.resources
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.csproj.GenerateResource.cache
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.csproj.CopyComplete
+C:\Users\arzu\Desktop\APM_new\bin\Debug\APM.exe.config
+C:\Users\arzu\Desktop\APM_new\bin\Debug\APM.exe
+C:\Users\arzu\Desktop\APM_new\bin\Debug\APM.pdb
+C:\Users\arzu\Desktop\APM_new\obj\Debug\SideNavSample.Form2.resources
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.Properties.Resources.resources
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.exe
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.pdb
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.AboutBox1.resources
+C:\Users\arzu\Desktop\APM_new\obj\Debug\APM.csprojAssemblyReference.cache
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\APM.exe.config
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\APM.exe
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\APM.pdb
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\DevComponents.Charts.Design.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.Platform.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.Transformations.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.AWT.WinForms.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Localedata.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Tools.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.Runtime.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.3.0.7.0.Fakes.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.Jobs.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\System.Data.SQLite.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\DevComponents.DotNetBar.Charts.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.pdb
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.Platform.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\FFImageLoading.Transformations.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.pdb
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.3.0.7.0.Fakes.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.Jobs.pdb
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\Quartz.Jobs.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\System.Data.SQLite.xml
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\APM.AboutBox1.resources
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\SideNavSample.Form1.resources
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\SideNavSample.Form2.resources
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\APM.Properties.Resources.resources
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\APM.csproj.GenerateResource.cache
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\APM.csproj.CopyComplete
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\APM.exe
+C:\Users\arzu\Desktop\APM_new - Copy (2)\obj\Debug\APM.pdb
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.AboutBox1.resources
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\SideNavSample.Form1.resources
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\SideNavSample.Form2.resources
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.Properties.Resources.resources
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.csproj.GenerateResource.cache
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.exe
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.pdb
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\APM.exe.config
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\APM.exe
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\APM.pdb
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\DevComponents.Charts.Design.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\DevComponents.DotNetBar2.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.Platform.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.Transformations.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.AWT.WinForms.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Beans.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Charsets.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Cldrdata.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Corba.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Core.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Jdbc.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Localedata.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Management.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Media.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Misc.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Naming.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Nashorn.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Remoting.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Security.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Text.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Tools.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.Util.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.API.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.Bind.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.Crypto.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.Parse.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.Transform.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.WebServices.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.OpenJDK.XML.XPath.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.Runtime.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\IKVM.Runtime.JNI.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\System.Data.SQLite.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\DevComponents.DotNetBar.Charts.dll
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\DevComponents.DotNetBar2.xml
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.pdb
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.xml
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.Platform.xml
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\FFImageLoading.Transformations.xml
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\System.Data.SQLite.xml
+D:\atasayar\amp\BAKUP_1_31\APM_new\bin\Debug\System.Data.SQLite.dll.config
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.csproj.CopyComplete
+D:\atasayar\amp\BAKUP_1_31\APM_new\obj\Debug\APM.csprojAssemblyReference.cache
