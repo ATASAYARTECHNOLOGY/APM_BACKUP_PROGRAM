@@ -208,5 +208,10 @@ namespace SideNavSample
         public static int status_pass_table;
         public static int data_select_pass;
 
+
+        public static string keydateforchekstart;
+        public static string keydateforchekend;
+        public static string  keychek;
+
     }
 }

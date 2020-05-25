@@ -484,6 +484,10 @@ namespace SideNavSample
             value_run_daily_value();
             datagrid_mail_google();
 
+            key_chek.Enabled = true;
+            key_chek.Start();
+
+
 
             this.Visible = true;
 
@@ -6557,6 +6561,16 @@ namespace SideNavSample
         {
             
             
+        }
+
+        private void button6_Click_11(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void key_chek_Tick(object sender, EventArgs e)
+        {
+            Key_Chek.Keychek();
         }
     }
 }
