@@ -3270,8 +3270,9 @@ namespace SideNavSample
             myconnection.ConnectionString = value.connection_string_derver;
 
             string gserv;
+            
 
-            gserv = "select * from Tbl_key  where (li_key = '" + value.key + "')";
+            gserv = "select * from Tbl_key  where (li_key = '" + value.key + "' and id_costumer IS NULL )";
 
             SqlCommand mycommand = new SqlCommand();
 
@@ -3366,6 +3367,27 @@ namespace SideNavSample
             else
             {
                 MessageBox.Show("lisans anahtarını kontrol edin", "DİKKAT", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+
+
+                myconnection = new SqlConnection();
+                myconnection.ConnectionString = value.connection_string_derver;
+
+                string gserv1;
+
+               
+                gserv1 = "  insert into Tbl_key_error  ([key_try] ,[ip_adress] ,[cpmputer_name],[date_try]) values('" + value.key + "','" + ipadress.LocalIPAddress() + "','" + Environment.UserName + "','" + DateTime.Now.ToShortDateString() + "' )";
+
+                SqlCommand mycommand1 = new SqlCommand();
+
+                mycommand1.CommandText = gserv1;
+                myconnection.Open();
+                mycommand1.Connection = myconnection;
+                mycommand1.ExecuteNonQuery();
+                myconnection.Close();
+
+
             }
 
 
@@ -6556,49 +6578,24 @@ namespace SideNavSample
         private void button6_Click_12(object sender, EventArgs e)
         {
 
-            ////MailAddress from = new MailAddress("teknoloji.atasayar@yandex.com", "APM Backup Manager");
-            ////MailAddress to = new MailAddress(value.send_mail_message_oto1);
-            ////MailMessage message = new MailMessage(from, to);
-            ////message.Subject = "APM Backup Manager";
-            ////message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde saat : " + timemail + " Başariyla Sonuçlandı(Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
-            ////MailAddress bcc = new MailAddress("arzu@atasayarteknoloji.com");
-            ////message.Bcc.Add(bcc);
-
-            ////SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-
-            ////smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
-            ////smtpclient.EnableSsl = true;
-
-            ////smtpclient.Send(message);
-            ////LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
-            ////statu_change.change_status_mail_true();
+            prog.Enabled = true;
+            prog.Start();
         }
 
         private void prog_Tick(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source =.; Initial Catalog = TIGER_PLUS ; Integrated Security=True;Asynchronous Processing=True");
+            SqlConnection conn = new SqlConnection(@"Data Source =.; Initial Catalog =arzu ; Integrated Security=True;Asynchronous Processing=True");
             //می توان علاوه بر نمایش در پروگرس بار به صورت فرمت ساعت هم نشان دد
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(@"select top 2 start_time,
- percent_complete ,estimated_completion_time 
- from sys.dm_exec_requests 
-order by start_time desc", conn);
+            SqlDataAdapter da = new SqlDataAdapter(@"select top 2 start_time,percent_complete ,estimated_completion_time  from sys.dm_exec_requests order by start_time desc", conn);
             da.Fill(dt);
             decimal percent = decimal.Parse(dt.Rows[1][1].ToString());
             int Roundpercent = Int32.Parse(Math.Round(percent).ToString());
             if (Roundpercent < 98 && Roundpercent != 0)
                 progressBar1.Value = Roundpercent;
 
-            //گرفتن مدت زمان طول کشیدن برای ریستور
-            if (value._timeLength == string.Empty && dt.Rows[1][2].ToString() != "0")
-            {
-                TimeSpan t = TimeSpan.FromMilliseconds(Int64.Parse(dt.Rows[1][2].ToString()));
-                string formatedTime = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                        t.Hours,
-                                        t.Minutes,
-                                        t.Seconds);
-                value._timeLength = formatedTime;
-            }
+          
+           
 
         }
     }
