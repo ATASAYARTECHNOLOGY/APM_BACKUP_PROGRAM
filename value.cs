@@ -74,6 +74,13 @@ namespace SideNavSample
         public static string data_douce_db;
 
 
+       // public static string mailbcc="teknik@atasayarteknoloji.com";
+        public static string mailbcc="arzu@atasayarteknoloji.com";
+        public static string mailpass= "123123!!";
+        public static string mailfrom= "teknoloji.atasayar@yandex.com";
+        public static string mailsubject= "APM Backup Manager";
+
+
         public static string send_ftp_adress;
         public static string send_ftp_username;
         public static string send_ftp_password;
@@ -212,6 +219,6 @@ namespace SideNavSample
         public static string keydateforchekstart;
         public static string keydateforchekend;
         public static string  keychek;
-
+        public static string _timeLength = string.Empty;
     }
 }

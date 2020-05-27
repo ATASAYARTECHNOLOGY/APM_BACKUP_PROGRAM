@@ -1174,3 +1174,519 @@
 
 [9:59:21 AM Friday, May 22, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
 -----------------------
+
+[9:22:52 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:25:14 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:25:38 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup
+-----------------------
+
+[9:25:41 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[9:26:31 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:26:46 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup
+-----------------------
+
+[9:26:48 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[9:32:17 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:32:36 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup
+-----------------------
+
+[9:32:38 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[9:58:23 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:58:54 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup
+-----------------------
+
+[9:58:56 PM Monday, May 25, 2020]--user:arzu----IP:192.168.1.103--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[2:04:02 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[2:04:21 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup
+-----------------------
+
+[2:04:23 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[3:29:28 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[3:29:48 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup
+-----------------------
+
+[3:29:50 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[3:31:19 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[3:47:47 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[3:54:44 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:05:35 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:16:36 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:18:23 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:32:08 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:35:05 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:43:23 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[4:50:58 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--
+-----------------------
+
+[4:52:11 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--
+-----------------------
+
+[4:52:28 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--
+-----------------------
+
+[4:55:38 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--
+-----------------------
+
+[5:09:29 PM Tuesday, May 26, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--
+-----------------------
+
+[9:41:32 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--
+-----------------------
+
+[10:07:57 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[10:08:18 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup
+-----------------------
+
+[10:08:20 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:19:06 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[10:19:57 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[10:21:50 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[10:21:52 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:21:53 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:21:55 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:21:56 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:21:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:22:04 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[10:26:07 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[10:27:08 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[10:28:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[10:29:15 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:29:39 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:30:08 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:30:23 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:30:25 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:30:30 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[10:32:37 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[10:34:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[10:34:54 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:34:54 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:35:02 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:35:04 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:35:06 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:35:09 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[10:37:21 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[10:39:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[10:48:45 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:48:45 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:48:55 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:48:57 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:48:59 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:49:02 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[10:52:32 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[10:53:12 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[10:53:13 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[10:53:19 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:53:19 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:53:24 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:53:26 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:53:28 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:53:33 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[10:55:21 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[10:57:13 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[10:57:30 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:57:30 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:57:34 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:57:36 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:57:38 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[10:57:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[11:06:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email----
+-----------------------
+
+[11:08:39 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email----
+-----------------------
+
+[11:25:04 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[11:25:28 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create weekly Backup
+-----------------------
+
+[11:25:31 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create weekly Backup
+-----------------------
+
+[11:25:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:26:25 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[11:26:32 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:26:32 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:26:52 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:26:53 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:26:56 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:27:00 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[11:33:25 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[11:33:56 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:35:00 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[11:35:07 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:35:07 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:35:16 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:35:17 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:35:20 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:35:24 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[11:39:47 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[11:40:25 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:44:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[11:45:04 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:45:04 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:45:07 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:45:09 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:45:11 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:45:15 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[11:46:17 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:47:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[11:48:26 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:49:14 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:50:37 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:50:39 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:50:41 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:50:45 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[11:51:29 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:53:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[11:53:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:54:05 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:54:06 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:54:09 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[11:54:12 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[11:56:11 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:56:18 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[11:57:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[11:57:58 AM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[12:01:00 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[12:01:00 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--TIGER_PLUS--
+-----------------------
+
+[12:01:35 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:01:38 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:01:49 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[12:34:50 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[12:35:28 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[12:37:29 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[12:37:29 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[12:37:49 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:37:51 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[12:37:58 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[12:39:42 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[12:41:29 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[12:41:29 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[12:41:35 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:41:36 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[12:41:38 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:41:42 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[12:42:38 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[12:43:29 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[12:43:29 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[12:43:56 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:43:58 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[12:44:00 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:44:05 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------
+
+[12:48:06 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[12:48:38 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[12:50:40 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[12:50:40 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[12:50:45 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:50:46 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[12:50:49 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send Email--arezoofarzadfar61@gmail.com--
+-----------------------
+
+[12:50:53 PM Wednesday, May 27, 2020]--user:arzu----IP:192.168.1.72--	 Send File GoogleDrive
+-----------------------

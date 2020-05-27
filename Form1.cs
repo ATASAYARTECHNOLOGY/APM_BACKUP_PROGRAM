@@ -410,6 +410,7 @@ namespace SideNavSample
                 }
 
             }
+            
         }
 
 
@@ -1213,7 +1214,18 @@ namespace SideNavSample
 
                         string gserv2;
 
-                        gserv2 = "select * from Tbl_costumer where ((mac_adress = '" + value.mac + "') or  (hdd_number = '" + value.hdd + "'  ))";
+
+
+                        SQLiteConnection con = new SQLiteConnection(value.conlite);
+                        string macdata;
+                        string q1_ftp = "select * from tbl_program_info ";
+                        SQLiteDataAdapter da9 = new SQLiteDataAdapter(q1_ftp, con);
+                        DataSet ds9 = new DataSet();
+                        da9.Fill(ds9);
+
+                        macdata = ds9.Tables[0].Rows[0][3].ToString();
+
+                        gserv2 = "select * from Tbl_costumer where ((mac_adress = '" + macdata + "') or  (hdd_number = '" + value.hdd + "'  ))";
 
                         SqlCommand mycommand = new SqlCommand();
 
@@ -1592,6 +1604,8 @@ namespace SideNavSample
             }
         }
 
+      
+
         private void buttonX3_Click(object sender, EventArgs e)
         {
 
@@ -1631,7 +1645,6 @@ namespace SideNavSample
                         {
 
 
-
                             value.connectionstring = "Data Source = " + value.data_douce_db + "; User Id = " + value.username_db + "; Password = " + value.password_db + "";
                             SqlConnection conn = new SqlConnection(value.connectionstring);
 
@@ -1644,13 +1657,11 @@ namespace SideNavSample
                                 {
 
                                     conn.Open();
+                                  
                                 }
                                 command.CommandTimeout = 999999;
                                 command.ExecuteNonQuery();
-                                conn.Close();
-
-
-
+                          
                                 string filekonum = value.path + "\\" + combo_data_sql.SelectedItem + "-" + value.time_backup_mono + ".bak";
                                 string zipKonum = value.path + combo_data_sql.SelectedItem + "-" + value.time_backup_mono + ".zip";
                                 string zipFile = zipKonum.ToString();
@@ -1680,11 +1691,13 @@ namespace SideNavSample
                                     MessageBox.Show("no");
 
                                 }
+
+                             
                             }
 
 
-                            conn.Close();
-
+                                conn.Close();
+                          
 
                             sendmailokdayli();
 
@@ -1773,11 +1786,12 @@ namespace SideNavSample
                         {
 
                             conn.Open();
+                         
                         }
                         command.CommandTimeout = 999999;
                         command.ExecuteNonQuery();
+                      
                         conn.Close();
-
 
                         string filekonum = value.path + "\\" + combo_data_sql.SelectedItem + "-" + value.time_backup_mono + ".bak";
                         string zipKonum = value.path + "\\" + combo_data_sql.SelectedItem + "-" + value.time_backup_mono + ".zip";
@@ -2450,16 +2464,20 @@ namespace SideNavSample
 
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto1);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde saat : " + timemail + " Başariyla Sonuçlandı(Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                            MailAddress bcc = new MailAddress(value.mailbcc);
+                            message.Bcc.Add(bcc);
 
-                            MailMessage bb = new MailMessage();
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-                            smtpclient.Send(msg);
+                            smtpclient.Send(message);
                             LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
                             statu_change.change_status_mail_true();
 
@@ -2470,35 +2488,26 @@ namespace SideNavSample
                         {
 
 
+                         
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto2);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde saat : " + timemail + " Başariyla Sonuçlandı(Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                           // MailAddress bcc = new MailAddress(value.mailbcc);
+                           // message.Bcc.Add(bcc);
 
-
-
-
-                            MailMessage bb = new MailMessage();
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-                            smtpclient.Send(msg);
-
-                            MailMessage bb2 = new MailMessage();
-                            MailMessage msg2 = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto2, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            SmtpClient smtpclient2 = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
-                            smtpclient.EnableSsl = true;
-
-
-
-                            smtpclient.Send(msg2);
+                            smtpclient.Send(message);
                             LogWriter.Write("Send Email--" + value.send_mail_message_oto2 + "--");
                             statu_change.change_status_mail_true();
+
 
 
 
@@ -2565,20 +2574,26 @@ namespace SideNavSample
                         if (Convert.ToInt32(value.value_mail_data) < 2)
                         {
 
+
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto1);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde saat : " + timemail + " Gerçekleşmedi destek ekibini arayın (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                            MailAddress bcc = new MailAddress(value.mailbcc);
+                            message.Bcc.Add(bcc);
 
-                            MailMessage bb = new MailMessage();
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Gerçekleşmedi destek ekibini arayın (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-                            smtpclient.Send(msg);
+                            smtpclient.Send(message);
                             LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
                             statu_change.change_status_mail_true();
+
 
                         }
 
@@ -2588,30 +2603,23 @@ namespace SideNavSample
 
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto2);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde saat : " + timemail + " Gerçekleşmedi destek ekibini arayın (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                           // MailAddress bcc = new MailAddress(value.mailbcc);
+                           // message.Bcc.Add(bcc);
 
-                            MailMessage bb = new MailMessage();
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-                            smtpclient.Send(msg);
-
-                            MailMessage bb2 = new MailMessage();
-                            MailMessage msg2 = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto2, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            SmtpClient smtpclient2 = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
-                            smtpclient.EnableSsl = true;
-
-
-
-                            smtpclient.Send(msg2);
+                            smtpclient.Send(message);
                             LogWriter.Write("Send Email--" + value.send_mail_message_oto2 + "--");
                             statu_change.change_status_mail_true();
+
 
 
                         }
@@ -2693,22 +2701,23 @@ namespace SideNavSample
 
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto1);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.ftpmail + " , FTP Adresine  " + value.veritabanımail + "Veri Tabanı yedegi   " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Aktarıldı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                            MailAddress bcc = new MailAddress(value.mailbcc);
+                            message.Bcc.Add(bcc);
 
-
-                            MailMessage bb = new MailMessage();
-
-
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.ftpmail + " , FTP Adresine  " + value.veritabanımail + "Veri Tabanı yedegi   " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Aktarıldı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-
-
-                            smtpclient.Send(msg);
+                            smtpclient.Send(message);
                             LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
+                            statu_change.change_status_mail_true();
+
                         }
                         else
                               if (Convert.ToInt32(value.value_mail_data) == 2)
@@ -2716,36 +2725,21 @@ namespace SideNavSample
 
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto1);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.ftpmail + " , FTP Adresine  " + value.veritabanımail + "Veri Tabanı yedegi   " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Aktarıldı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                           // MailAddress bcc = new MailAddress(value.mailbcc);
+                           // message.Bcc.Add(bcc);
 
-
-                            MailMessage bb = new MailMessage();
-
-
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.ftpmail + " , FTP Adresine  " + value.veritabanımail + "Veri Tabanından yedegi Aktarıldı  " + datemail + "Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-
-
-                            smtpclient.Send(msg);
-                            statu_change.change_status_mail_true();
-                            MailMessage bb2 = new MailMessage();
-
-
-                            MailMessage msg2 = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto2, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.ftpmail + " , FTP Adresine  " + value.veritabanımail + "Veri Tabanından yedegi Aktarıldı  " + datemail + "Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            SmtpClient smtpclient2 = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
-                            smtpclient.EnableSsl = true;
-
-
-
-                            smtpclient.Send(msg2);
-                            LogWriter.Write("Send Email--" + value.send_mail_message_oto2 + "--");
+                            smtpclient.Send(message);
+                            LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
                             statu_change.change_status_mail_true();
 
                         }
@@ -2810,64 +2804,50 @@ namespace SideNavSample
                         {
 
 
+
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto1);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                            MailAddress bcc = new MailAddress(value.mailbcc);
+                            message.Bcc.Add(bcc);
 
-
-
-
-                            MailMessage bb = new MailMessage();
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-
-
-                            smtpclient.Send(msg);
+                            smtpclient.Send(message);
+                            LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
                             statu_change.change_status_mail_true();
+
+                          
                         }
 
                         else
                                if (Convert.ToInt32(value.value_mail_data) == 2)
                         {
 
-
                             string datemail = DateTime.Now.ToShortDateString();
                             string timemail = DateTime.Now.ToShortTimeString();
+                            MailAddress from = new MailAddress(value.mailfrom, value.mailsubject);
+                            MailAddress to = new MailAddress(value.send_mail_message_oto1);
+                            MailMessage message = new MailMessage(from, to);
+                            message.Subject = "APM Backup Manager";
+                            message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+                           // MailAddress bcc = new MailAddress(value.mailbcc);
+                           // message.Bcc.Add(bcc);
 
-
-
-
-                            MailMessage bb = new MailMessage();
-                            MailMessage msg = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto1, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından geriyukleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
                             SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+
+                            smtpclient.Credentials = new NetworkCredential(value.mailfrom, value.mailpass);
                             smtpclient.EnableSsl = true;
 
-
-
-                            smtpclient.Send(msg);
-
-
-
-
-
-                            MailMessage bb2 = new MailMessage();
-                            MailMessage msg2 = new MailMessage("teknoloji.atasayar@yandex.com", value.send_mail_message_oto2, "APM Backup Manager", value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından geriyukleme işlemi  " + datemail + " Tarihinde  saat : " + timemail + " Başariyla Sonuçlandı (Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )");
-
-                            //SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
-                            SmtpClient smtpclient2 = new SmtpClient("smtp.yandex.com.tr", 587);
-                            smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
-                            smtpclient.EnableSsl = true;
-
-
-
-                            smtpclient.Send(msg2);
+                            smtpclient.Send(message);
+                            LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
                             statu_change.change_status_mail_true();
 
 
@@ -3577,7 +3557,7 @@ namespace SideNavSample
                             path = value.backup_day_value_database_ftp + "\\" + value.fileName;
                             Data_Save.Data_save_for_read(path, filenamedata);
 
-                            sendmailokdayli();
+                            
                             LogWriter.Write("Create Backup Daily--" + value.backup_day_value_database + "--");
 
 
@@ -6571,6 +6551,55 @@ namespace SideNavSample
         private void key_chek_Tick(object sender, EventArgs e)
         {
             Key_Chek.Keychek();
+        }
+
+        private void button6_Click_12(object sender, EventArgs e)
+        {
+
+            ////MailAddress from = new MailAddress("teknoloji.atasayar@yandex.com", "APM Backup Manager");
+            ////MailAddress to = new MailAddress(value.send_mail_message_oto1);
+            ////MailMessage message = new MailMessage(from, to);
+            ////message.Subject = "APM Backup Manager";
+            ////message.Body = value.companyname + " Şirketine Ait " + value.veritabanımail + "  Veri Tabanından yedekleme işlemi  " + datemail + " Tarihinde saat : " + timemail + " Başariyla Sonuçlandı(Bu Bildirim Apm yazılımı Tarafından Size Gönderilmiştir )";
+            ////MailAddress bcc = new MailAddress("arzu@atasayarteknoloji.com");
+            ////message.Bcc.Add(bcc);
+
+            ////SmtpClient smtpclient = new SmtpClient("smtp.yandex.com.tr", 587);
+
+            ////smtpclient.Credentials = new NetworkCredential("teknoloji.atasayar@yandex.com", "123123!!");
+            ////smtpclient.EnableSsl = true;
+
+            ////smtpclient.Send(message);
+            ////LogWriter.Write("Send Email--" + value.send_mail_message_oto1 + "--");
+            ////statu_change.change_status_mail_true();
+        }
+
+        private void prog_Tick(object sender, EventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(@"Data Source =.; Initial Catalog = TIGER_PLUS ; Integrated Security=True;Asynchronous Processing=True");
+            //می توان علاوه بر نمایش در پروگرس بار به صورت فرمت ساعت هم نشان دد
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(@"select top 2 start_time,
+ percent_complete ,estimated_completion_time 
+ from sys.dm_exec_requests 
+order by start_time desc", conn);
+            da.Fill(dt);
+            decimal percent = decimal.Parse(dt.Rows[1][1].ToString());
+            int Roundpercent = Int32.Parse(Math.Round(percent).ToString());
+            if (Roundpercent < 98 && Roundpercent != 0)
+                progressBar1.Value = Roundpercent;
+
+            //گرفتن مدت زمان طول کشیدن برای ریستور
+            if (value._timeLength == string.Empty && dt.Rows[1][2].ToString() != "0")
+            {
+                TimeSpan t = TimeSpan.FromMilliseconds(Int64.Parse(dt.Rows[1][2].ToString()));
+                string formatedTime = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                        t.Hours,
+                                        t.Minutes,
+                                        t.Seconds);
+                value._timeLength = formatedTime;
+            }
+
         }
     }
 }
