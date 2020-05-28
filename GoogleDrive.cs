@@ -94,6 +94,10 @@ namespace SideNavSample
                    
                     request.Upload();
                     LogWriter.Write("Send File GoogleDrive");
+
+                    ////Form1 frm1 = Application.OpenForms["Form1"] as Form1;
+                    ////frm1.backgroundWorker1.RunWorkerAsync();
+                    ////frm1.backgroundWorker1.CancelAsync();
                 }
                 var fileId = request.ResponseBody;
             }

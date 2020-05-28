@@ -1762,3 +1762,390 @@
 
 [10:16:41 AM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Save FTP--------
 -----------------------
+
+[11:18:17 AM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[12:41:25 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[12:49:17 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[12:51:04 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup
+-----------------------
+
+[12:54:33 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[12:56:18 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup
+-----------------------
+
+[2:01:48 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[2:02:15 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[2:06:24 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[2:06:45 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[2:16:43 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[2:16:55 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--TIGER_PLUS--
+-----------------------
+
+[2:23:50 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[2:28:42 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[2:29:03 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[2:29:31 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Save Email----
+-----------------------
+
+[2:29:31 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Backup Daily--arzu--
+-----------------------
+
+[2:31:07 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[2:31:33 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.72--	 Create Daily Backup
+-----------------------
+
+[7:44:43 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[7:45:34 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[7:46:43 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[7:47:32 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[7:51:32 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[7:52:13 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:26:50 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[8:27:45 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:28:43 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[8:28:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:31:21 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:31:29 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:36:40 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[8:37:27 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:37:33 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:44:07 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save FTP--178.211.54.216\--apm--apm/atasayar--
+-----------------------
+
+[8:44:31 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[8:44:47 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:45:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:45:05 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:46:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[8:46:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[8:50:34 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[8:50:34 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--TIGER_PLUS--
+-----------------------
+
+[8:53:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[8:54:46 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:54:56 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[8:56:39 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[8:56:39 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[8:59:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[8:59:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--TIGER_PLUS--
+-----------------------
+
+[9:02:13 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:02:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[9:02:55 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[9:05:52 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[9:05:52 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[9:09:28 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[9:09:28 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--TIGER_PLUS--
+-----------------------
+
+[9:12:42 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[9:13:19 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[9:13:25 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[9:14:55 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[9:14:55 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[9:18:29 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[9:18:29 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--TIGER_PLUS--
+-----------------------
+
+[10:18:04 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[10:18:53 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:19:23 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:20:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[10:20:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:20:58 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[10:20:58 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--test2--
+-----------------------
+
+[10:21:09 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[10:21:09 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--test2--ftp://178.211.54.216--
+-----------------------
+
+[10:21:10 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[10:21:10 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--test2--ftp://178.211.54.216--
+-----------------------
+
+[10:23:12 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:23:19 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:24:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[10:24:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--test2--
+-----------------------
+
+[10:24:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[10:24:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[10:27:18 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[10:27:35 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:29:18 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[10:29:22 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[10:31:09 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:31:19 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:37:38 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:37:55 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[10:39:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[10:39:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--test2--
+-----------------------
+
+[10:39:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[10:39:57 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:20:05 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:20:22 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:25:25 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:25:25 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:27:48 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Connect SQL--DESKTOP-MU88J8Q
+-----------------------
+
+[11:28:39 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:28:51 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:28:58 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:31:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[11:31:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--test2--
+-----------------------
+
+[11:31:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[11:31:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:33:51 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:34:02 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:37:48 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:37:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:38:42 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:38:49 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:41:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[11:41:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:41:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[11:41:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--test2--
+-----------------------
+
+[11:43:52 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:43:52 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--test2--ftp://178.211.54.216--
+-----------------------
+
+[11:43:53 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:43:53 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--test2--ftp://178.211.54.216--
+-----------------------
+
+[11:44:42 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:44:48 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Daily Backup
+-----------------------
+
+[11:47:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[11:47:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--test2--
+-----------------------
+
+[11:47:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Save Email----
+-----------------------
+
+[11:47:00 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Create Backup Daily--arzu--
+-----------------------
+
+[11:49:14 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:49:24 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------
+
+[11:50:34 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send file To FTP
+-----------------------
+
+[11:50:34 PM Thursday, May 28, 2020]--user:arzu----IP:192.168.1.103--	 Send Ftp Daily--arzu--ftp://178.211.54.216--
+-----------------------

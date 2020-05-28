@@ -75,7 +75,7 @@ namespace SideNavSample
 
 
        // public static string mailbcc="teknik@atasayarteknoloji.com";
-        public static string mailbcc="arzu@atasayarteknoloji.com";
+        public static string mailbcc= "teknik@atasayarteknoloji.com";
         public static string mailpass= "123123!!";
         public static string mailfrom= "teknoloji.atasayar@yandex.com";
         public static string mailsubject= "APM Backup Manager";
@@ -222,6 +222,8 @@ namespace SideNavSample
         public static string keydateforchekstart;
         public static string keydateforchekend;
         public static string  keychek;
+        public static int  valueforprog;
+        public static int  valuei;
         public static string _timeLength = string.Empty;
     }
 }

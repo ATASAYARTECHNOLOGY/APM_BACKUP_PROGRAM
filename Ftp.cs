@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SideNavSample
 {
@@ -49,6 +50,7 @@ namespace SideNavSample
                     da99.Fill(ds99);
 
                     path = ds99.Tables[0].Rows[i][0].ToString();
+                    value.fileName = ds99.Tables[0].Rows[i][1].ToString();
 
                     q1_ftp = "select * from Tbl_costumer_ftp ";
                     SQLiteDataAdapter da9 = new SQLiteDataAdapter(q1_ftp, con);
@@ -63,32 +65,39 @@ namespace SideNavSample
 
 
                     dirpath = "/" + ds9.Tables[0].Rows[0][3].ToString();
-                    path = value.backup_day_value_database_ftp + "\\" + value.fileName;
+                    //path = value.backup_day_value_database_ftp + value.fileName;
                     string Server2 = Server + dirpath;
 
                     FtpWebRequest request = (FtpWebRequest)WebRequest.Create(new Uri(string.Format("{0}/{1}", Server2, value.fileName)));
                     request.Method = WebRequestMethods.Ftp.UploadFile;
                     request.UseBinary = true;
                     request.UsePassive = true;
-                    request.Timeout = 2000;
-                    request.KeepAlive = false;
+                    request.Timeout = 2000000;
+                    request.KeepAlive = true;
                     request.Credentials = new NetworkCredential(Username, Password);
 
-                    FileStream stream = File.OpenRead(path);
+                    using (FileStream stream = File.OpenRead(path))
+                    {
+                        var len = stream.Length;
+                        byte[] buffer = new byte[len];
+                        stream.Read(buffer, 0, buffer.Length);
+                        stream.Close();
+                        Stream requestStream = request.GetRequestStream();
+                        requestStream.Write(buffer, 0, buffer.Length);
+                        requestStream.Flush();
+                        requestStream.Close();
+                    }
+                    LogWriter.Write("Send file To FTP");
 
-                    byte[] buffer = new byte[stream.Length*2];
-                    stream.Read(buffer, 0, buffer.Length);
-                    stream.Close();
 
-                    Stream reqstream = request.GetRequestStream();
-
-                    reqstream.Write(buffer, 0, buffer.Length);
-                    reqstream.Flush();
-                    reqstream.Close();
 
                     LogWriter.Write("Send Ftp Daily--" + value.backup_day_value_database + "--" + Server + "--");
 
                     statu_change.change_status_FTP_true();
+
+                    ////Form1 frm1 = Application.OpenForms["Form1"] as Form1;
+                    ////frm1.backgroundWorker1.RunWorkerAsync();
+                    ////frm1.backgroundWorker1.CancelAsync();
 
                 }
 

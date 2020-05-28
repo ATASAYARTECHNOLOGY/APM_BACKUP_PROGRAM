@@ -15,11 +15,16 @@ using System.Management;
 using System.Security.Cryptography;
 using Microsoft.Win32.TaskScheduler;
 using System.Threading;
+using System.Runtime.InteropServices;
+using System.Collections.ObjectModel;
+using Microsoft.Win32;
 
 namespace SideNavSample
 {
     public partial class Form1 : OfficeForm
     {
+
+       
         public Form1()
         {
             InitializeComponent();
@@ -30,7 +35,7 @@ namespace SideNavSample
             comboBoxEx1.SelectedIndex = 0;
         }
         GoogleDrive google = new GoogleDrive();
-
+        RegistryKey key1 = Registry.CurrentUser.CreateSubKey("Software\\Windows\\CurrentVersion\\Policies\\System");
 
         SQLiteConnection con = new SQLiteConnection("Data Source=APM.sqlite;Version=3;password=@ta");
         //password=@ta
@@ -456,8 +461,8 @@ namespace SideNavSample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-            data_pass_user();
+            key1.SetValue("DisableTaskMgr", 1);
+        data_pass_user();
 
             if (Convert.ToInt32(value.status_pass_table) != 0)
             {
@@ -1640,9 +1645,12 @@ namespace SideNavSample
                     }
                     else
                     {
-
+                        
                         try
                         {
+
+                            //prog.Enabled = true;
+                            //prog.Start();
 
 
                             value.connectionstring = "Data Source = " + value.data_douce_db + "; User Id = " + value.username_db + "; Password = " + value.password_db + "";
@@ -1660,9 +1668,6 @@ namespace SideNavSample
                                 
                                 }
                              
-                               
-                               // int milliseconds = 3000;
-                               // Thread.Sleep(milliseconds);
 
 
                                 command.CommandTimeout = 999999;
@@ -3502,7 +3507,8 @@ namespace SideNavSample
 
                 try
                 {
-
+                    value.valueforprog = 0;
+                    progressBar1.Value = 0;
 
 
                     string path;
@@ -3517,15 +3523,49 @@ namespace SideNavSample
 
                     con.Close();
 
-                    q888m = "select * from Tbl_dayli  ";
+
+
+
+                    ////////string qq = "select * from Tbl_dayli  ";
+                    ////////SQLiteDataAdapter da = new SQLiteDataAdapter(qq, con);
+                    ////////DataSet ds = new DataSet();
+                 
+                    ////////value.valueforprog = da.Fill(ds) * 2;
+
+                    ////////ftp_datagrid();
+
+                    ////////if (Convert.ToInt32(value.value_ftp_data) != 0)
+                    ////////{
+                    
+                    ////////        value.valueforprog += da.Fill(ds);
+
+                    ////////}
+
+                    ////////datagrid_mail_google();
+
+                    ////////if (Convert.ToInt32(value.value_ftp_data_mail_google) != 0)
+                    ////////{
+
+                    ////////    value.valueforprog += da.Fill(ds);
+
+                    ////////}
+                    ////////progressBar1.Maximum = value.valueforprog;
+
+
+
+
+
+                        q888m = "select * from Tbl_dayli  ";
                     SQLiteDataAdapter da88 = new SQLiteDataAdapter(q888m, con);
                     DataSet dsm88 = new DataSet();
                     da88.Fill(dsm88);
 
                     data_daily.Rows.Clear();
+                    
 
                     for (int i = 0; i < dsm88.Tables[0].Rows.Count; i++)
                     {
+                      
                         data_daily.Rows.Add(dsm88.Tables[0].Rows[i][0].ToString(), dsm88.Tables[0].Rows[i][2].ToString(), dsm88.Tables[0].Rows[i][4].ToString(), dsm88.Tables[0].Rows[i][5].ToString());
 
                         value.backup_day_value_database = dsm88.Tables[0].Rows[i][4].ToString();
@@ -3562,6 +3602,9 @@ namespace SideNavSample
                             conn.Close();
                             statu_change.change_status_backup_true();
 
+                            ////Form1 frm1 = Application.OpenForms["Form1"] as Form1;
+                            ////frm1.backgroundWorker1.RunWorkerAsync();
+                            ////frm1.backgroundWorker1.CancelAsync();
 
                             string filekonum = value.backup_day_value_database_ftp + "\\" + value.backup_day_value_database + "-" + value.time_backup_mono + ".bak";
                             string zipKonum = value.backup_day_value_database_ftp + value.backup_day_value_database + "-" + value.time_backup_mono + ".zip";
@@ -3591,17 +3634,21 @@ namespace SideNavSample
 
                             }
                             conn.Close();
-                            path = value.backup_day_value_database_ftp + "\\" + value.fileName;
+                            path = value.backup_day_value_database_ftp + value.fileName;
                             Data_Save.Data_save_for_read(path, filenamedata);
 
                             
                             LogWriter.Write("Create Backup Daily--" + value.backup_day_value_database + "--");
 
-
+                            //// frm1 = Application.OpenForms["Form1"] as Form1;
+                            ////frm1.backgroundWorker1.RunWorkerAsync();
+                            ////frm1.backgroundWorker1.CancelAsync();
 
 
                         }
                     }
+
+                   
                     sendmailokdayli();
                 }
                 catch
@@ -6598,25 +6645,7 @@ namespace SideNavSample
 
         private void prog_Tick(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source =.; Initial Catalog = arzu ; Integrated Security=True;Asynchronous Processing=True");
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(@"select top 2 start_time, percent_complete ,estimated_completion_time from sys.dm_exec_requests order by start_time desc", conn);
-            da.Fill(dt);
-            decimal percent = decimal.Parse(dt.Rows[1][1].ToString());
-            int Roundpercent = Int32.Parse(Math.Round(percent).ToString());
-            if (Roundpercent < 98 && Roundpercent != 0)
-                progressBar1.Value = Roundpercent;
-
-           
-            if (value._timeLength == string.Empty && dt.Rows[1][2].ToString() != "0")
-            {
-                TimeSpan t = TimeSpan.FromMilliseconds(Int64.Parse(dt.Rows[1][2].ToString()));
-                string formatedTime = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                        t.Hours,
-                                        t.Minutes,
-                                        t.Seconds);
-                value._timeLength = formatedTime;
-            }
+          
 
 
 
@@ -6627,6 +6656,26 @@ namespace SideNavSample
            
                
             
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            ////this.sfButton1.Text = "Loading";
+            ////busyIndicator.Show(this.sfButton1, new Point((this.sfButton1.Width / 2) + this.busyIndicator.Image.Width, (this.sfButton1.Height / 2) - this.busyIndicator.Image.Height / 2));
+            ////for (int i = 0; i <= 10000000; i++)
+            ////{
+            ////    sampleData.Add(i);
+            ////}
+            ////busyIndicator.Hide();
+            ////this.sfButton1.Text = "Get items";
+            ////sampleData.Clear();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+           // progressBar1.Value ++;
+
+
         }
     }
 }
