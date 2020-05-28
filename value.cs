@@ -216,6 +216,9 @@ namespace SideNavSample
         public static int data_select_pass;
 
 
+        public static int cmd;
+
+
         public static string keydateforchekstart;
         public static string keydateforchekend;
         public static string  keychek;

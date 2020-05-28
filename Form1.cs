@@ -14,6 +14,7 @@ using System.IO.Compression;
 using System.Management;
 using System.Security.Cryptography;
 using Microsoft.Win32.TaskScheduler;
+using System.Threading;
 
 namespace SideNavSample
 {
@@ -439,7 +440,6 @@ namespace SideNavSample
 
             }
 
-
             value.day_count = Int32.Parse(value.day_count1);
             value.week_count = Int32.Parse(value.week_count1);
             value.month_count = Int32.Parse(value.month_count1);
@@ -456,7 +456,7 @@ namespace SideNavSample
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
             data_pass_user();
 
             if (Convert.ToInt32(value.status_pass_table) != 0)
@@ -1657,8 +1657,14 @@ namespace SideNavSample
                                 {
 
                                     conn.Open();
-                                  
+                                
                                 }
+                             
+                               
+                               // int milliseconds = 3000;
+                               // Thread.Sleep(milliseconds);
+
+
                                 command.CommandTimeout = 999999;
                                 command.ExecuteNonQuery();
                           
@@ -1697,7 +1703,9 @@ namespace SideNavSample
 
 
                                 conn.Close();
-                          
+                           
+                           // buttonX3.Text = " Yedekleme";
+                           
 
                             sendmailokdayli();
 
@@ -1715,7 +1723,7 @@ namespace SideNavSample
                                     DataSet ds9 = new DataSet();
                                     da9.Fill(ds9);
 
-
+                                  
 
                                     Server = "ftp://" + ds9.Tables[0].Rows[0][0].ToString();
                                     Username = ds9.Tables[0].Rows[0][1].ToString();
@@ -1733,7 +1741,8 @@ namespace SideNavSample
                                     request.Timeout = 1200000;
                                     request.KeepAlive = true;
                                     request.Credentials = new NetworkCredential(Username, Password);
-
+                                    buttonX3.Text = "Lutfen bekleyin";
+                                   
 
                                     using (FileStream stream = File.OpenRead(path))
                                     {
@@ -1753,7 +1762,9 @@ namespace SideNavSample
                                 {
                                 }
                                 sendmailftp();
+                              
 
+                                buttonX3.Text = " Yedekleme";
 
                             }
 
@@ -1782,12 +1793,16 @@ namespace SideNavSample
                     string cmd = @"BACKUP DATABASE [" + combo_data_sql.SelectedItem + "] TO  DISK = N'" + value.path + "\\" + combo_data_sql.SelectedItem + "-" + value.time_backup_mono + ".bak'" + " WITH NOFORMAT, NOINIT,  NAME = N'" + combo_data_sql.SelectedItem + DateTime.Now.ToString("yyyy-MM-dd") + ".bak' ,SKIP, NOREWIND, NOUNLOAD,  STATS = 10";
                     using (SqlCommand command = new SqlCommand(cmd, conn))
                     {
+                      
                         if (conn.State != ConnectionState.Open)
                         {
 
                             conn.Open();
-                         
+                           
                         }
+                     
+                        System.Threading.Thread.Sleep(90000);
+
                         command.CommandTimeout = 999999;
                         command.ExecuteNonQuery();
                       
@@ -1825,6 +1840,7 @@ namespace SideNavSample
 
                     conn.Close();
                     sendmailokdayli();
+                  
                 }
 
 
@@ -3317,8 +3333,8 @@ namespace SideNavSample
 
                     con.Open();
                     SQLiteCommand cmd = new SQLiteCommand();
-                    cmd.CommandText = "insert into tbl_program_info ([start_point],[key],[hdd_serial],[mac_number],[start_date]) " +
-                    "values('" + value.start_point + "','" + value.key + "','" + txt_compani.Text + "','" + value.mac + "','" + value.Date_start + "')";
+                    cmd.CommandText = "insert into tbl_program_info ([start_point],[key],[hdd_serial],[mac_number],[start_date],[day_count] ,[week_count],[month_count]) " +
+                    "values('" + value.start_point + "','" + value.key + "','" + txt_compani.Text + "','" + value.mac + "','" + value.Date_start + "', '" + 1 + "', '" + 1 + "', '" + 1 + "')";
                     cmd.Connection = con;
                     cmd.ExecuteNonQuery();
                     ftp_datagrid_mail();
@@ -3386,7 +3402,6 @@ namespace SideNavSample
                 mycommand1.Connection = myconnection;
                 mycommand1.ExecuteNonQuery();
                 myconnection.Close();
-
 
             }
 
@@ -6578,24 +6593,32 @@ namespace SideNavSample
         private void button6_Click_12(object sender, EventArgs e)
         {
 
-            prog.Enabled = true;
-            prog.Start();
+           
         }
 
         private void prog_Tick(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source =.; Initial Catalog =arzu ; Integrated Security=True;Asynchronous Processing=True");
-            //می توان علاوه بر نمایش در پروگرس بار به صورت فرمت ساعت هم نشان دد
+            SqlConnection conn = new SqlConnection(@"Data Source =.; Initial Catalog = arzu ; Integrated Security=True;Asynchronous Processing=True");
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(@"select top 2 start_time,percent_complete ,estimated_completion_time  from sys.dm_exec_requests order by start_time desc", conn);
+            SqlDataAdapter da = new SqlDataAdapter(@"select top 2 start_time, percent_complete ,estimated_completion_time from sys.dm_exec_requests order by start_time desc", conn);
             da.Fill(dt);
             decimal percent = decimal.Parse(dt.Rows[1][1].ToString());
             int Roundpercent = Int32.Parse(Math.Round(percent).ToString());
             if (Roundpercent < 98 && Roundpercent != 0)
                 progressBar1.Value = Roundpercent;
 
-          
            
+            if (value._timeLength == string.Empty && dt.Rows[1][2].ToString() != "0")
+            {
+                TimeSpan t = TimeSpan.FromMilliseconds(Int64.Parse(dt.Rows[1][2].ToString()));
+                string formatedTime = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                        t.Hours,
+                                        t.Minutes,
+                                        t.Seconds);
+                value._timeLength = formatedTime;
+            }
+
+
 
         }
     }
